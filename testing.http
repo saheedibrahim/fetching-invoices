@@ -1,0 +1,21 @@
+
+### Store Invoices
+POST http://127.0.0.1:8000/api/invoices
+Content-Type: application/json
+Accept: application/json
+
+{
+    "customer_name": "Uthman Olajide",
+    "amount": "25000",
+    "status": "pending"
+}
+
+### Get all invoices
+GET http://127.0.0.1:8000/api/invoices
+Content-Type: application/json
+Accept: application/json
+
+### Get single invoice
+GET http://127.0.0.1:8000/api/invoices/2
+Content-Type: application/json
+Accept: application/json
